@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # --- Configuration de la page ---
-st.set_page_config(page_title="Tarification d’expédition - SPCA", page_icon="📦")
+st.set_page_config(page_title="Tarification d’expédition", page_icon="📦")
 
 # --- Style personnalisé SPCA ---
 st.markdown("""
@@ -59,7 +59,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- En-tête ---
-st.markdown('<h1 class="main-title">📦 Tarification d’expédition – SPCA Montréal</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-title">📦 Tarification d’expédition</h1>', unsafe_allow_html=True)
 st.markdown('<p class="subtext">Entrez la quantité de calendriers pour obtenir le coût total d’expédition (Postes Canada + manutention Kopel).</p>', unsafe_allow_html=True)
 
 # --- Données officielles ---
@@ -132,5 +132,5 @@ if estimer:
 st.markdown('</div>', unsafe_allow_html=True)
 
 # --- Pied de page ---
-st.caption("SPCA Montréal • Outil interne d’estimation des coûts d’expédition © 2025")
+st.caption("Created by Abdel_Consultant BI © 2025")
 
